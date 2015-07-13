@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A760AD9B1B53B4BC005F1911 /* doc_app1.html in Resources */ = {isa = PBXBuildFile; fileRef = A760AD991B53B4BC005F1911 /* doc_app1.html */; };
+		A760AD9C1B53B4BC005F1911 /* WebViewJavascriptBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = A760AD9A1B53B4BC005F1911 /* WebViewJavascriptBridge.js */; };
 		EBA869C21B4429890053286D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA869C11B4429890053286D /* main.m */; };
 		EBA869C51B4429890053286D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA869C41B4429890053286D /* AppDelegate.m */; };
 		EBA869C81B4429890053286D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA869C71B4429890053286D /* ViewController.m */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A760AD991B53B4BC005F1911 /* doc_app1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = doc_app1.html; sourceTree = "<group>"; };
+		A760AD9A1B53B4BC005F1911 /* WebViewJavascriptBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = WebViewJavascriptBridge.js; sourceTree = "<group>"; };
 		EBA869BC1B4429890053286D /* SABridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SABridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA869C01B4429890053286D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA869C11B4429890053286D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 		EBA869B31B4429890053286D = {
 			isa = PBXGroup;
 			children = (
+				A760AD991B53B4BC005F1911 /* doc_app1.html */,
+				A760AD9A1B53B4BC005F1911 /* WebViewJavascriptBridge.js */,
 				EBA869E81B442A210053286D /* SourceFile */,
 				EBA869BE1B4429890053286D /* SABridgeDemo */,
 				EBA869D81B44298A0053286D /* SABridgeDemoTests */,
@@ -215,6 +221,8 @@
 				EBA869CB1B44298A0053286D /* Main.storyboard in Resources */,
 				EBA869D01B44298A0053286D /* LaunchScreen.xib in Resources */,
 				EBA869CD1B44298A0053286D /* Images.xcassets in Resources */,
+				A760AD9C1B53B4BC005F1911 /* WebViewJavascriptBridge.js in Resources */,
+				A760AD9B1B53B4BC005F1911 /* doc_app1.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

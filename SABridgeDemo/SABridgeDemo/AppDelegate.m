@@ -17,6 +17,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    NSString *resourceName = [NSString stringWithFormat:@"doc_app%d",1];
+//    NSString *path = [[NSBundle mainBundle] pathForResource:resourceName ofType:@"html"];
+//    NSString *file = [NSString stringWithContentsOfFile:path
+//                                               encoding:NSUTF8StringEncoding
+//                                                  error:nil];
+//    NSString *documentPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
+//                                                                  NSUserDomainMask,
+//                                                                  YES) firstObject];
+//    NSString *htmlPath = [documentPath stringByAppendingString:@"/doc_app1.html"];
+//    [file writeToFile:htmlPath atomically:YES encoding:NSUTF8StringEncoding error:nil];
+//    
+//    path = [[NSBundle mainBundle] pathForResource:@"WebViewJavascriptBridge" ofType:@"js"];
+//    file = [NSString stringWithContentsOfFile:path
+//                                    encoding:NSUTF8StringEncoding
+//                                       error:nil];
+//    NSString *jsPath = [documentPath stringByAppendingString:@"/WebViewJavascriptBridge.js"];
+//    [file writeToFile:jsPath atomically:YES encoding:NSUTF8StringEncoding error:nil];
+//    
+//    
+//    NSLog(@"--%@",documentPath);
+    
     return YES;
 }
 
